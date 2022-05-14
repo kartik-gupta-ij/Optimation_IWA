@@ -27,7 +27,9 @@
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <!-- Google Fonts -->
-  <link href="assets/fonts/fonts.css" rel="stylesheet">
+  <link rel="preload" href="assets/fonts/fonts.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/fonts/fonts.css"></noscript>
+  
   <!-- Bootstrap CSS-->
   <link rel="preload" href="assets/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="assets/css/bootstrap.min.css"></noscript>
@@ -56,8 +58,9 @@
   <noscript><link rel="stylesheet" href="assets/css/colors.css"></noscript>
   
   <!-- Live Style Switcher - demo only -->
-
-  <link id="style-switch" href="assets/css/colors/orange.css" media="screen" rel="stylesheet" type="text/css">
+  <link rel="preload" href="assets/css/colors/orange.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="assets/css/colors/orange.css"></noscript>
+  
   <!-- Responsive CSS File -->
   <link rel="preload" href="assets/css/responsive.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="assets/css/responsive.css"></noscript>
